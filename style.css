@@ -101,13 +101,13 @@ header .btn-login {
 
 .hero span {
     color: var(--lime);
-    position: relative; /* Ensure it serves as the reference for the absolute positioning of the image */
-    display: inline-block; /* To ensure proper alignment and positioning */
+    position: relative;
+    display: inline-block;
 }
 
 .hero img {
-    position: absolute; /* Absolute positioning within the span */
-    bottom: -20px; /* Adjust based on your design */
+    position: absolute; 
+    bottom: -20px; 
     left: 55%;
     transform: translateX(-50%);
 }
@@ -120,12 +120,15 @@ header .btn-login {
     border-radius: 35px;
     font-size: 1rem;
     font-weight: 700;
+    height: 35px;
     transition: all 0.3s;
 }
 
 .btn-insider:hover {
-    padding: 0.5rem 3.5rem;
-    
+    padding: 0.3rem 1.85rem;
+    background-color: var(--black);
+    color: var(--white);
+    border: solid 3px var(--lime);
 }
 
 footer {
